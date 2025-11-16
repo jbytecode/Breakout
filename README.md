@@ -23,6 +23,7 @@ Start Julia in the project folder and type
 in the OS terminal. 
 
 ```julia
+julia> using Pkg; Pkg.instantiate()
 julia> include("breakout.jl")
 ```
 
